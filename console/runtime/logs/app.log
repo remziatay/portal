@@ -1,0 +1,2142 @@
+2018-10-19 08:44:24 [-][-][-][error][Error] Error: Class 'Schema' not found in /var/www/portal/console/migrations/m150523_194158_init.php:10
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m150523_194158_init->up()
+#1 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m150523_194158_...')
+#2 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#3 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/portal/yii(27): yii\base\Application->run()
+#11 {main}
+2018-10-19 08:44:18 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539938658.7908
+    'REQUEST_TIME' => 1539938658
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2018-10-19 08:46:54 [-][-][-][error][ReflectionException] ReflectionException: Class m181019_084403_kullanicilar does not exist in /var/www/portal/vendor/yiisoft/yii2/di/Container.php:428
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(428): ReflectionClass->__construct('m181019_084403_...')
+#1 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(364): yii\di\Container->getDependencies('m181019_084403_...')
+#2 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('m181019_084403_...', Array, Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('m181019_084403_...', Array, Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m181019_084403_...')
+#6 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181019_084403_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#14 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/portal/yii(27): yii\base\Application->run()
+#16 {main}
+2018-10-19 08:46:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539938812.0923
+    'REQUEST_TIME' => 1539938812
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2018-10-19 08:47:28 [-][-][-][error][yii\console\Exception] yii\console\Exception: The step argument must be greater than 0. in /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:237
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(0)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 08:47:28 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539938848.385
+    'REQUEST_TIME' => 1539938848
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => 'm150523_194158_init'
+    ]
+    'argc' => 3
+]
+2018-10-19 09:09:54 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[*]) FROM user' at line 1 in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('SELECT COUNT([*...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/portal/console/controllers/BasicController.php(13): yii\db\Command->queryScalar()
+#4 [internal function]: console\controllers\BasicController->actionIndex()
+#5 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /var/www/portal/yii(27): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[*]) FROM user' at line 1
+The SQL being executed was: SELECT COUNT([*]) FROM user in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT([*...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('SELECT COUNT([*...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/portal/console/controllers/BasicController.php(13): yii\db\Command->queryScalar()
+#4 [internal function]: console\controllers\BasicController->actionIndex()
+#5 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /var/www/portal/yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[*]) FROM user' at line 1
+)
+
+2018-10-19 09:09:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940194.5489
+    'REQUEST_TIME' => 1539940194
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:10:06 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[*]) FROM user' at line 1 in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('SELECT COUNT([*...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/portal/console/controllers/BasicController.php(13): yii\db\Command->queryScalar()
+#4 [internal function]: console\controllers\BasicController->actionIndex()
+#5 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /var/www/portal/yii(27): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[*]) FROM user' at line 1
+The SQL being executed was: SELECT COUNT([*]) FROM user; in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT([*...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('SELECT COUNT([*...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/portal/console/controllers/BasicController.php(13): yii\db\Command->queryScalar()
+#4 [internal function]: console\controllers\BasicController->actionIndex()
+#5 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /var/www/portal/yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[*]) FROM user' at line 1
+)
+
+2018-10-19 09:10:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940205.9139
+    'REQUEST_TIME' => 1539940205
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:14:07 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list' in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO use...')
+#2 /var/www/portal/console/controllers/BasicController.php(25): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list'
+The SQL being executed was: INSERT INTO user (email, password) VALUES ("test3@example.com", "test3"); in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO use...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO use...')
+#2 /var/www/portal/console/controllers/BasicController.php(25): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'password' in 'field list'
+)
+
+2018-10-19 09:14:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940446.8419
+    'REQUEST_TIME' => 1539940446
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/user'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:14:35 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: basic/User in /var/www/portal/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('User', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('User', Array)
+#2 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/User', Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/User', Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /var/www/portal/yii(27): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "basic/User". in /var/www/portal/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/User', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /var/www/portal/yii(27): yii\base\Application->run()
+#3 {main}
+2018-10-19 09:14:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940475.1302
+    'REQUEST_TIME' => 1539940475
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/User'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:14:41 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list' in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO use...')
+#2 /var/www/portal/console/controllers/BasicController.php(25): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list'
+The SQL being executed was: INSERT INTO user (email, password) VALUES ("test3@example.com", "test3"); in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO use...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO use...')
+#2 /var/www/portal/console/controllers/BasicController.php(25): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'password' in 'field list'
+)
+
+2018-10-19 09:14:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940480.8958
+    'REQUEST_TIME' => 1539940480
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/user'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:19:24 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list' in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 /var/www/portal/console/controllers/BasicController.php(37): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+The SQL being executed was: INSERT INTO `user` (`email`, `password_hash`, `user_name`, `created_at`, `updated_at`) VALUES ('test4@example.com', 'bcee54ba71241c29d9f3e8927422841a', 'Test', 1539940764, 1539940764) in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 /var/www/portal/console/controllers/BasicController.php(37): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'user_name' in 'field list'
+)
+
+2018-10-19 09:19:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940764.6192
+    'REQUEST_TIME' => 1539940764
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/user'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:20:41 [-][-][-][error][ParseError] ParseError: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /var/www/portal/console/controllers/BasicController.php:41
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('user')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:20:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940841.5739
+    'REQUEST_TIME' => 1539940841
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/user'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:21:05 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list' in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 /var/www/portal/console/controllers/BasicController.php(38): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+The SQL being executed was: INSERT INTO `user` (`email`, `password_hash`, `user_name`, `created_at`, `updated_at`, `access_token`) VALUES ('test4@example.com', 'bcee54ba71241c29d9f3e8927422841a', 'Test', 1539940865, 1539940865, 'e8234267dbe770043da5b8af94040b4f') in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 /var/www/portal/console/controllers/BasicController.php(38): yii\db\Command->execute()
+#3 [internal function]: console\controllers\BasicController->actionUser()
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('user', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('user', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/user', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/user', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'user_name' in 'field list'
+)
+
+2018-10-19 09:21:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539940864.8424
+    'REQUEST_TIME' => 1539940864
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/user'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:27:09 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ',', expecting ']' in /var/www/portal/console/controllers/BasicController.php:59
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:27:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941229.6426
+    'REQUEST_TIME' => 1539941229
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:27:28 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '?>', expecting function (T_FUNCTION) in /var/www/portal/console/controllers/BasicController.php:63
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:27:28 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941248.71
+    'REQUEST_TIME' => 1539941248
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:27:55 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '?>', expecting function (T_FUNCTION) in /var/www/portal/console/controllers/BasicController.php:63
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:27:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941275.4937
+    'REQUEST_TIME' => 1539941275
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:28:19 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '?>', expecting function (T_FUNCTION) in /var/www/portal/console/controllers/BasicController.php:63
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:28:19 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941299.6817
+    'REQUEST_TIME' => 1539941299
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:29:23 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '?>', expecting function (T_FUNCTION) in /var/www/portal/console/controllers/BasicController.php:63
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:29:23 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941363.5503
+    'REQUEST_TIME' => 1539941363
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:29:55 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '?>', expecting function (T_FUNCTION) in /var/www/portal/console/controllers/BasicController.php:63
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:29:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941395.2757
+    'REQUEST_TIME' => 1539941395
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:31:28 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ',', expecting ']' in /var/www/portal/console/controllers/BasicController.php:59
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:31:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941487.9061
+    'REQUEST_TIME' => 1539941487
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:31:30 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ',', expecting ']' in /var/www/portal/console/controllers/BasicController.php:59
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:31:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941490.8325
+    'REQUEST_TIME' => 1539941490
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-10-19 09:31:59 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ',', expecting ']' in /var/www/portal/console/controllers/BasicController.php:59
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('basic')
+#4 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('add-few')
+#5 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('basic/add-few', Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('basic/add-few', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/portal/yii(27): yii\base\Application->run()
+#9 {main}
+2018-10-19 09:31:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '8'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2217 22'
+    'OLDPWD' => '/var/www'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2217 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1539941518.9414
+    'REQUEST_TIME' => 1539941518
+    'argv' => [
+        0 => 'yii'
+        1 => 'basic/add-few'
+    ]
+    'argc' => 2
+]
+2018-12-14 09:40:58 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: You should configure "authManager" component to use database before executing this migration. in /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php:27
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php(51): m140506_102106_rbac_init->getAuthManager()
+#1 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m140506_102106_rbac_init->up()
+#2 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+2018-12-14 09:39:21 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '11'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 32677 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 32677 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'OLDPWD' => '/home/vagrant'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1544780361.2531
+    'REQUEST_TIME' => 1544780361
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2018-12-14 09:44:35 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: You should configure "authManager" component to use database before executing this migration. in /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php:27
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php(51): m140506_102106_rbac_init->getAuthManager()
+#1 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m140506_102106_rbac_init->up()
+#2 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+2018-12-14 09:44:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '11'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 32677 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 32677 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'OLDPWD' => '/home/vagrant'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1544780673.3858
+    'REQUEST_TIME' => 1544780673
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2018-12-14 09:44:59 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: You should configure "authManager" component to use database before executing this migration. in /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php:27
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php(51): m140506_102106_rbac_init->getAuthManager()
+#1 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m140506_102106_rbac_init->up()
+#2 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+2018-12-14 09:44:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '11'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 32677 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 32677 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'OLDPWD' => '/home/vagrant'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1544780695.7282
+    'REQUEST_TIME' => 1544780695
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2018-12-14 09:47:06 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: You should configure "authManager" component to use database before executing this migration. in /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php:27
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php(51): m140506_102106_rbac_init->getAuthManager()
+#1 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m140506_102106_rbac_init->up()
+#2 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+2018-12-14 09:47:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '11'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 32677 22'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 32677 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'OLDPWD' => '/home/vagrant'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1544780825.16
+    'REQUEST_TIME' => 1544780825
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2018-12-31 13:36:44 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1005 Can't create table `kouosl`.`#sql-a31_143` (errno: 150 "Foreign key constraint is incorrectly formed") in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('ALTER TABLE `sa...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(467): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(59): yii\db\Migration->addForeignKey('fk-saved_addres...', 'saved_address', 'address_id', 'adress', 'id', 'CASCADE')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m181231_115100_harita_init->up()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1005 Can't create table `kouosl`.`#sql-a31_143` (errno: 150 "Foreign key constraint is incorrectly formed")
+The SQL being executed was: ALTER TABLE `saved_address` ADD CONSTRAINT `fk-saved_address-address_id` FOREIGN KEY (`address_id`) REFERENCES `adress` (`id`) ON DELETE CASCADE in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'ALTER TABLE `sa...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('ALTER TABLE `sa...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(467): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(59): yii\db\Migration->addForeignKey('fk-saved_addres...', 'saved_address', 'address_id', 'adress', 'id', 'CASCADE')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m181231_115100_harita_init->up()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1005
+    [2] => Can't create table `kouosl`.`#sql-a31_143` (errno: 150 "Foreign key constraint is incorrectly formed")
+)
+
+2018-12-31 13:36:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546263404.352
+    'REQUEST_TIME' => 1546263404
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 13:39:21 [-][-][-][error][ReflectionException] ReflectionException: Class m181019_084403_kullanicilar does not exist in /var/www/portal/vendor/yiisoft/yii2/di/Container.php:428
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(428): ReflectionClass->__construct('m181019_084403_...')
+#1 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(364): yii\di\Container->getDependencies('m181019_084403_...')
+#2 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('m181019_084403_...', Array, Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('m181019_084403_...', Array, Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m181019_084403_...')
+#6 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181019_084403_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#14 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/portal/yii(27): yii\base\Application->run()
+#16 {main}
+2018-12-31 13:39:21 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546263561.5355
+    'REQUEST_TIME' => 1546263561
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 13:40:50 [-][-][-][error][ReflectionException] ReflectionException: Class m181019_084403_kullanicilar does not exist in /var/www/portal/vendor/yiisoft/yii2/di/Container.php:428
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(428): ReflectionClass->__construct('m181019_084403_...')
+#1 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(364): yii\di\Container->getDependencies('m181019_084403_...')
+#2 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('m181019_084403_...', Array, Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('m181019_084403_...', Array, Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m181019_084403_...')
+#6 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181019_084403_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#14 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/portal/yii(27): yii\base\Application->run()
+#16 {main}
+2018-12-31 13:40:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546263650.1365
+    'REQUEST_TIME' => 1546263650
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 13:43:15 [-][-][-][error][ReflectionException] ReflectionException: Class m181019_084403_kullanicilar does not exist in /var/www/portal/vendor/yiisoft/yii2/di/Container.php:428
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(428): ReflectionClass->__construct('m181019_084403_...')
+#1 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(364): yii\di\Container->getDependencies('m181019_084403_...')
+#2 /var/www/portal/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('m181019_084403_...', Array, Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('m181019_084403_...', Array, Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m181019_084403_...')
+#6 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181019_084403_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#14 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/portal/yii(27): yii\base\Application->run()
+#16 {main}
+2018-12-31 13:43:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546263795.4312
+    'REQUEST_TIME' => 1546263795
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 17:58:54 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk-saved_address-user_id'; check that column/key exists in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('ALTER TABLE `sa...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(479): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(99): yii\db\Migration->dropForeignKey('fk-saved_addres...', 'saved_address')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(753): m181231_115100_harita_init->down()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk-saved_address-user_id'; check that column/key exists
+The SQL being executed was: ALTER TABLE `saved_address` DROP FOREIGN KEY `fk-saved_address-user_id` in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'ALTER TABLE `sa...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('ALTER TABLE `sa...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(479): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(99): yii\db\Migration->dropForeignKey('fk-saved_addres...', 'saved_address')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(753): m181231_115100_harita_init->down()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1091
+    [2] => Can't DROP 'fk-saved_address-user_id'; check that column/key exists
+)
+
+2018-12-31 17:58:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546279133.9489
+    'REQUEST_TIME' => 1546279133
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 18:01:23 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk-saved_address-user_id'; check that column/key exists in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('ALTER TABLE `sa...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(479): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(94): yii\db\Migration->dropForeignKey('fk-saved_addres...', 'saved_address')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(753): m181231_115100_harita_init->down()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'fk-saved_address-user_id'; check that column/key exists
+The SQL being executed was: ALTER TABLE `saved_address` DROP FOREIGN KEY `fk-saved_address-user_id` in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'ALTER TABLE `sa...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('ALTER TABLE `sa...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(479): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(94): yii\db\Migration->dropForeignKey('fk-saved_addres...', 'saved_address')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(753): m181231_115100_harita_init->down()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('down', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1091
+    [2] => Can't DROP 'fk-saved_address-user_id'; check that column/key exists
+)
+
+2018-12-31 18:01:23 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546279283.0068
+    'REQUEST_TIME' => 1546279283
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 18:07:15 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\db\mysql\ColumnSchemaBuilder::Uniq in /var/www/portal/vendor/yiisoft/yii2/base/BaseObject.php:141
+Stack trace:
+#0 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(30): yii\base\BaseObject->__get('Uniq')
+#1 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m181231_115100_harita_init->up()
+#2 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m181231_115100_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/portal/yii(27): yii\base\Application->run()
+#12 {main}
+2018-12-31 18:07:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546279634.7985
+    'REQUEST_TIME' => 1546279634
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]
+2018-12-31 18:07:33 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'address' already exists in /var/www/portal/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('CREATE TABLE `a...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(323): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(22): yii\db\Migration->createTable('address', Array, 'CHARACTER SET u...')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m181231_115100_harita_init->up()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'address' already exists
+The SQL being executed was: CREATE TABLE `address` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`address` varchar(120) NOT NULL,
+	`zoom` smallint(6) NOT NULL DEFAULT 16
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in /var/www/portal/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `a...')
+#1 /var/www/portal/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('CREATE TABLE `a...')
+#2 /var/www/portal/vendor/yiisoft/yii2/db/Migration.php(323): yii\db\Command->execute()
+#3 /var/www/portal/vendor/kouosl/portal-harita/migrations/m181231_115100_harita_init.php(22): yii\db\Migration->createTable('address', Array, 'CHARACTER SET u...')
+#4 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(725): m181231_115100_harita_init->up()
+#5 /var/www/portal/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m181231_115100_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/portal/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 /var/www/portal/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/portal/yii(27): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'address' already exists
+)
+
+2018-12-31 18:07:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'XDG_SESSION_ID' => '12'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'SSH_CLIENT' => '10.0.2.2 2788 22'
+    'OLDPWD' => '/var'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'vagrant'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/portal'
+    'LANG' => 'en_US.UTF-8'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 2788 10.0.2.15 22'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1546279653.2398
+    'REQUEST_TIME' => 1546279653
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@vendor/kouosl/portal-harita/migrations'
+        3 => '--interactive=0'
+    ]
+    'argc' => 4
+]

@@ -1,0 +1,367 @@
+a:13:{s:6:"config";s:3153:"a:5:{s:10:"phpVersion";s:23:"7.0.32-0ubuntu0.16.04.1";s:10:"yiiVersion";s:8:"2.0.15.1";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.15.1";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:23:"7.0.32-0ubuntu0.16.04.1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:1;s:9:"memcached";b:0;}s:10:"extensions";a:14:{s:18:"kouosl/portal-base";a:3:{s:4:"name";s:18:"kouosl/portal-base";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:12:"@kouosl/base";s:41:"/var/www/portal/vendor/kouosl/portal-base";}}s:18:"kouosl/portal-site";a:3:{s:4:"name";s:18:"kouosl/portal-site";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:12:"@kouosl/site";s:41:"/var/www/portal/vendor/kouosl/portal-site";}}s:18:"kouosl/portal-user";a:3:{s:4:"name";s:18:"kouosl/portal-user";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:12:"@kouosl/user";s:41:"/var/www/portal/vendor/kouosl/portal-user";}}s:18:"kouosl/portal-menu";a:3:{s:4:"name";s:18:"kouosl/portal-menu";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:12:"@kouosl/menu";s:41:"/var/www/portal/vendor/kouosl/portal-menu";}}s:21:"kouosl/portal-content";a:3:{s:4:"name";s:21:"kouosl/portal-content";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:15:"@kouosl/content";s:44:"/var/www/portal/vendor/kouosl/portal-content";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:47:"/var/www/portal/vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.8.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:49:"/var/www/portal/vendor/yiisoft/yii2-bootstrap/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.14.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:45:"/var/www/portal/vendor/yiisoft/yii2-debug/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:43:"/var/www/portal/vendor/yiisoft/yii2-gii/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:41:"/var/www/portal/vendor/yiisoft/yii2-faker";}}s:17:"kouosl/portal-gii";a:3:{s:4:"name";s:17:"kouosl/portal-gii";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:11:"@kouosl/gii";s:40:"/var/www/portal/vendor/kouosl/portal-gii";}}s:19:"kouosl/portal-theme";a:3:{s:4:"name";s:19:"kouosl/portal-theme";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:13:"@kouosl/theme";s:42:"/var/www/portal/vendor/kouosl/portal-theme";}}s:20:"kouosl/portal-harita";a:3:{s:4:"name";s:20:"kouosl/portal-harita";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:14:"@kouosl/harita";s:43:"/var/www/portal/vendor/kouosl/portal-harita";}}s:19:"kouosl/portal-login";a:3:{s:4:"name";s:19:"kouosl/portal-login";s:7:"version";s:11:"dev-develop";s:5:"alias";a:1:{s:13:"@kouosl/login";s:42:"/var/www/portal/vendor/kouosl/portal-login";}}}}";s:7:"request";s:6551:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:9:{s:4:"host";s:13:"portal.kouosl";s:10:"user-agent";s:78:"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"accept-language";s:35:"tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:115:"http://portal.kouosl/admin/harita/default/add?attrs%5Bwidth%5D=500&attrs%5Bblock%5D=1&name=ffffffff&center=3&zoom=2";s:10:"connection";s:10:"keep-alive";s:6:"cookie";s:925:"_identity-frontend=88378c7506457e7fed2ad66caebae7052d694c675893358567878a0ed984f0aea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M%22%2C2592000%5D%22%3B%7D; _identity-backend=8dababc37d649bf9a6ab59d82ee57cf59b056791cd8c9df46c8706ce3edb12d6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M%22%2C2592000%5D%22%3B%7D; advanced-frontend=un4uu2cqdccdj5ab2accts9mb2; _csrf-frontend=b470ca5c986212b41b88a225a006d1d86dea6e9437fe7a2098e7221d66ae4547a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vFFbbcQfHJb78TfCbSvA9CfMJqmRArqZ%22%3B%7D; advanced-backend=dmonoolkmddhel1gtocafouud6; _csrf-backend=61ed00fb15a58359eafdade3b88f386c5713738820629bccde55792a16a952c6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tHlKPkn0bvsp0tgvXHAf7tkhPqhJ2Bqp%22%3B%7D";s:25:"upgrade-insecure-requests";s:1:"1";}s:15:"responseHeaders";a:5:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:10:"Set-Cookie";s:297:"_identity-backend=8dababc37d649bf9a6ab59d82ee57cf59b056791cd8c9df46c8706ce3edb12d6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M%22%2C2592000%5D%22%3B%7D; expires=Thu, 31-Jan-2019 15:33:43 GMT; Max-Age=2592000; path=/; HttpOnly";}s:5:"route";s:18:"harita/default/add";s:6:"action";s:64:"kouosl\harita\controllers\backend\DefaultController::actionAdd()";s:12:"actionParams";a:4:{i:0;a:2:{s:5:"width";s:3:"500";s:5:"block";s:1:"1";}i:1;s:3:"ggg";i:2;s:3:"aaa";i:3;s:1:"3";}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:35:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:13:"portal.kouosl";s:15:"HTTP_USER_AGENT";s:78:"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:115:"http://portal.kouosl/admin/harita/default/add?attrs%5Bwidth%5D=500&attrs%5Bblock%5D=1&name=ffffffff&center=3&zoom=2";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_COOKIE";s:925:"_identity-frontend=88378c7506457e7fed2ad66caebae7052d694c675893358567878a0ed984f0aea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M%22%2C2592000%5D%22%3B%7D; _identity-backend=8dababc37d649bf9a6ab59d82ee57cf59b056791cd8c9df46c8706ce3edb12d6a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M%22%2C2592000%5D%22%3B%7D; advanced-frontend=un4uu2cqdccdj5ab2accts9mb2; _csrf-frontend=b470ca5c986212b41b88a225a006d1d86dea6e9437fe7a2098e7221d66ae4547a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vFFbbcQfHJb78TfCbSvA9CfMJqmRArqZ%22%3B%7D; advanced-backend=dmonoolkmddhel1gtocafouud6; _csrf-backend=61ed00fb15a58359eafdade3b88f386c5713738820629bccde55792a16a952c6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tHlKPkn0bvsp0tgvXHAf7tkhPqhJ2Bqp%22%3B%7D";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:4:"PATH";s:60:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";s:16:"SERVER_SIGNATURE";s:74:"<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:22:"Apache/2.4.18 (Ubuntu)";s:11:"SERVER_NAME";s:13:"portal.kouosl";s:11:"SERVER_ADDR";s:14:"192.168.83.137";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:12:"192.168.83.1";s:13:"DOCUMENT_ROOT";s:15:"/var/www/portal";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"/var/www/portal";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:37:"/var/www/portal/backend/web/index.php";s:11:"REMOTE_PORT";s:5:"22133";s:12:"REDIRECT_URL";s:25:"/admin/harita/default/add";s:21:"REDIRECT_QUERY_STRING";s:66:"attrs%5Bwidth%5D=500&attrs%5Bblock%5D=1&name=ggg&center=aaa&zoom=3";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:66:"attrs%5Bwidth%5D=500&attrs%5Bblock%5D=1&name=ggg&center=aaa&zoom=3";s:11:"REQUEST_URI";s:92:"/admin/harita/default/add?attrs%5Bwidth%5D=500&attrs%5Bblock%5D=1&name=ggg&center=aaa&zoom=3";s:11:"SCRIPT_NAME";s:22:"/backend/web/index.php";s:8:"PHP_SELF";s:22:"/backend/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1546356823.609;s:12:"REQUEST_TIME";i:1546356823;}s:3:"GET";a:4:{s:5:"attrs";a:2:{s:5:"width";s:3:"500";s:5:"block";s:1:"1";}s:4:"name";s:3:"ggg";s:6:"center";s:3:"aaa";s:4:"zoom";s:1:"3";}s:4:"POST";a:0:{}s:6:"COOKIE";a:6:{s:18:"_identity-frontend";s:158:"88378c7506457e7fed2ad66caebae7052d694c675893358567878a0ed984f0aea:2:{i:0;s:18:"_identity-frontend";i:1;s:46:"[1,"PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M",2592000]";}";s:17:"_identity-backend";s:157:"8dababc37d649bf9a6ab59d82ee57cf59b056791cd8c9df46c8706ce3edb12d6a:2:{i:0;s:17:"_identity-backend";i:1;s:46:"[1,"PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M",2592000]";}";s:17:"advanced-frontend";s:26:"un4uu2cqdccdj5ab2accts9mb2";s:14:"_csrf-frontend";s:140:"b470ca5c986212b41b88a225a006d1d86dea6e9437fe7a2098e7221d66ae4547a:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"vFFbbcQfHJb78TfCbSvA9CfMJqmRArqZ";}";s:16:"advanced-backend";s:26:"dmonoolkmddhel1gtocafouud6";s:13:"_csrf-backend";s:139:"61ed00fb15a58359eafdade3b88f386c5713738820629bccde55792a16a952c6a:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"tHlKPkn0bvsp0tgvXHAf7tkhPqhJ2Bqp";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:2:{s:7:"__flash";a:0:{}s:4:"__id";i:1;}}";s:3:"log";s:11347:"a:1:{s:8:"messages";a:25:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1546356823.6197419;i:4;a:0:{}i:5;i:835728;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1546356823.619787;i:4;a:0:{}i:5;i:836736;}i:2;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1546356823.6439769;i:4;a:0:{}i:5;i:1006904;}i:3;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.646178;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1151432;}i:4;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=kouosl";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1546356823.6463389;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1153824;}i:9;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6492059;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1181752;}i:12;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6507039;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1197144;}i:15;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1546356823.65763;i:4;a:0:{}i:5;i:1298712;}i:16;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1546356823.6637659;i:4;a:0:{}i:5;i:1323896;}i:17;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1546356823.66503;i:4;a:0:{}i:5;i:1328440;}i:24;a:6:{i:0;s:37:"Route requested: 'harita/default/add'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1546356823.668668;i:4;a:0:{}i:5;i:1344872;}i:25;a:6:{i:0;s:22:"Loading module: harita";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1546356823.6686981;i:4;a:0:{}i:5;i:1346512;}i:26;a:6:{i:0;s:32:"Route to run: harita/default/add";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1546356823.674159;i:4;a:0:{}i:5;i:1368072;}i:27;a:6:{i:0;s:80:"Running action: kouosl\harita\controllers\backend\DefaultController::actionAdd()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1546356823.6745119;i:4;a:0:{}i:5;i:1375424;}i:28;a:6:{i:0;s:62:"SELECT * FROM `address` WHERE `address` = "aaa" AND `zoom` = 3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.674593;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:13;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1379760;}i:31;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `default_address`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6752551;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1388464;}i:34;a:6:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'default_address' AND kcu.table_name = 'default_address'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6764541;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1398792;}i:37;a:6:{i:0;s:1979:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    CASE
+        WHEN NULL IS NULL AND `kcu`.`REFERENCED_TABLE_SCHEMA` = DATABASE() THEN NULL
+        ELSE `kcu`.`REFERENCED_TABLE_SCHEMA`
+    END AS `foreign_table_schema`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `foreign_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `foreign_column_name`,
+    `rc`.`UPDATE_RULE` AS `on_update`,
+    `rc`.`DELETE_RULE` AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `rc`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `rc`.`TABLE_NAME` = 'default_address' AND `rc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME`
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` = 'FOREIGN KEY'
+UNION
+SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    NULL AS `foreign_table_schema`,
+    NULL AS `foreign_table_name`,
+    NULL AS `foreign_column_name`,
+    NULL AS `on_update`,
+    NULL AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` IN ('PRIMARY KEY', 'UNIQUE')
+ORDER BY `position` ASC";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6776409;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1407536;}i:40;a:6:{i:0;s:397:"SELECT
+    `s`.`INDEX_NAME` AS `name`,
+    `s`.`COLUMN_NAME` AS `column_name`,
+    `s`.`NON_UNIQUE` ^ 1 AS `index_is_unique`,
+    `s`.`INDEX_NAME` = 'PRIMARY' AS `index_is_primary`
+FROM `information_schema`.`STATISTICS` AS `s`
+WHERE `s`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `s`.`INDEX_SCHEMA` = `s`.`TABLE_SCHEMA` AND `s`.`TABLE_NAME` = 'default_address'
+ORDER BY `s`.`SEQ_IN_INDEX` ASC";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6806071;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1417768;}i:43;a:6:{i:0;s:129:"INSERT INTO `default_address` (`name`, `address_id`) VALUES ('ggg', 15) ON DUPLICATE KEY UPDATE `address_id`=VALUES(`address_id`)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1546356823.681493;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:25;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1418704;}i:46;a:6:{i:0;s:96:"Rendering view file: /var/www/portal/vendor/kouosl/portal-harita/views/backend/default/index.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1546356823.68664;i:4;a:2:{i:0;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-base/components/View.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:27;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1492368;}i:47;a:6:{i:0;s:36:"SELECT `name` FROM `default_address`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.7396679;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:134;s:8:"function";s:3:"all";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:124;s:8:"function";s:8:"getNames";s:5:"class";s:27:"kouosl\harita\widgets\Admin";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"/var/www/portal/vendor/kouosl/portal-harita/views/backend/default/index.php";s:4:"line";i:16;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:1614904;}i:50;a:6:{i:0;s:88:"Rendering view file: /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1546356823.74594;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:27;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1590896;}i:51;a:6:{i:0;s:101:"Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1";i:1;i:2;i:2;s:29:"yii\debug\Module::checkAccess";i:3;d:1546356823.787534;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php";s:4:"line";i:108;s:8:"function";s:7:"endBody";s:5:"class";s:12:"yii\web\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:27;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1681264;}i:52;a:6:{i:0;s:101:"Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1";i:1;i:2;i:2;s:29:"yii\debug\Module::checkAccess";i:3;d:1546356823.7890129;i:4;a:0:{}i:5;i:1647248;}}}";s:9:"profiling";s:15871:"a:3:{s:6:"memory";i:1699128;s:4:"time";d:0.1802830696105957;s:8:"messages";a:22:{i:5;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=kouosl";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1546356823.6464851;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1154792;}i:6;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=kouosl";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1546356823.647052;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1165112;}i:7;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6472061;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1164864;}i:8;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.648514;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1173976;}i:10;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6493609;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1183896;}i:11;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.650146;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1185136;}i:13;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6508429;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1197192;}i:14;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6510849;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1199768;}i:29;a:6:{i:0;s:62:"SELECT * FROM `address` WHERE `address` = "aaa" AND `zoom` = 3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6746571;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:13;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1380848;}i:30;a:6:{i:0;s:62:"SELECT * FROM `address` WHERE `address` = "aaa" AND `zoom` = 3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.675117;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:13;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1382296;}i:32;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `default_address`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6753449;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1389520;}i:33;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `default_address`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6762121;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1393504;}i:35;a:6:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'default_address' AND kcu.table_name = 'default_address'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.676549;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1400888;}i:36;a:6:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'default_address' AND kcu.table_name = 'default_address'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6773651;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1402752;}i:38;a:6:{i:0;s:1979:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    CASE
+        WHEN NULL IS NULL AND `kcu`.`REFERENCED_TABLE_SCHEMA` = DATABASE() THEN NULL
+        ELSE `kcu`.`REFERENCED_TABLE_SCHEMA`
+    END AS `foreign_table_schema`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `foreign_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `foreign_column_name`,
+    `rc`.`UPDATE_RULE` AS `on_update`,
+    `rc`.`DELETE_RULE` AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `rc`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `rc`.`TABLE_NAME` = 'default_address' AND `rc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME`
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` = 'FOREIGN KEY'
+UNION
+SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    NULL AS `foreign_table_schema`,
+    NULL AS `foreign_table_name`,
+    NULL AS `foreign_column_name`,
+    NULL AS `on_update`,
+    NULL AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` IN ('PRIMARY KEY', 'UNIQUE')
+ORDER BY `position` ASC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6777329;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1412448;}i:39;a:6:{i:0;s:1979:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    CASE
+        WHEN NULL IS NULL AND `kcu`.`REFERENCED_TABLE_SCHEMA` = DATABASE() THEN NULL
+        ELSE `kcu`.`REFERENCED_TABLE_SCHEMA`
+    END AS `foreign_table_schema`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `foreign_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `foreign_column_name`,
+    `rc`.`UPDATE_RULE` AS `on_update`,
+    `rc`.`DELETE_RULE` AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `rc`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `rc`.`TABLE_NAME` = 'default_address' AND `rc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME`
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` = 'FOREIGN KEY'
+UNION
+SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    NULL AS `foreign_table_schema`,
+    NULL AS `foreign_table_name`,
+    NULL AS `foreign_column_name`,
+    NULL AS `on_update`,
+    NULL AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` IN ('PRIMARY KEY', 'UNIQUE')
+ORDER BY `position` ASC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6802831;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1415528;}i:41;a:6:{i:0;s:397:"SELECT
+    `s`.`INDEX_NAME` AS `name`,
+    `s`.`COLUMN_NAME` AS `column_name`,
+    `s`.`NON_UNIQUE` ^ 1 AS `index_is_unique`,
+    `s`.`INDEX_NAME` = 'PRIMARY' AS `index_is_primary`
+FROM `information_schema`.`STATISTICS` AS `s`
+WHERE `s`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `s`.`INDEX_SCHEMA` = `s`.`TABLE_SCHEMA` AND `s`.`TABLE_NAME` = 'default_address'
+ORDER BY `s`.`SEQ_IN_INDEX` ASC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.680696;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1419480;}i:42;a:6:{i:0;s:397:"SELECT
+    `s`.`INDEX_NAME` AS `name`,
+    `s`.`COLUMN_NAME` AS `column_name`,
+    `s`.`NON_UNIQUE` ^ 1 AS `index_is_unique`,
+    `s`.`INDEX_NAME` = 'PRIMARY' AS `index_is_primary`
+FROM `information_schema`.`STATISTICS` AS `s`
+WHERE `s`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `s`.`INDEX_SCHEMA` = `s`.`TABLE_SCHEMA` AND `s`.`TABLE_NAME` = 'default_address'
+ORDER BY `s`.`SEQ_IN_INDEX` ASC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6811969;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1421720;}i:44;a:6:{i:0;s:129:"INSERT INTO `default_address` (`name`, `address_id`) VALUES ('ggg', 15) ON DUPLICATE KEY UPDATE `address_id`=VALUES(`address_id`)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1546356823.6815519;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:25;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1419848;}i:45;a:6:{i:0;s:129:"INSERT INTO `default_address` (`name`, `address_id`) VALUES ('ggg', 15) ON DUPLICATE KEY UPDATE `address_id`=VALUES(`address_id`)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1546356823.682451;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:25;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1420824;}i:48;a:6:{i:0;s:36:"SELECT `name` FROM `default_address`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.739764;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:134;s:8:"function";s:3:"all";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:124;s:8:"function";s:8:"getNames";s:5:"class";s:27:"kouosl\harita\widgets\Admin";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"/var/www/portal/vendor/kouosl/portal-harita/views/backend/default/index.php";s:4:"line";i:16;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:1616792;}i:49;a:6:{i:0;s:36:"SELECT `name` FROM `default_address`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.7402101;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:134;s:8:"function";s:3:"all";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:124;s:8:"function";s:8:"getNames";s:5:"class";s:27:"kouosl\harita\widgets\Admin";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"/var/www/portal/vendor/kouosl/portal-harita/views/backend/default/index.php";s:4:"line";i:16;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:1623032;}}}";s:2:"db";s:15085:"a:1:{s:8:"messages";a:20:{i:7;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6472061;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1164864;}i:8;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.648514;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1173976;}i:10;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6493609;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1183896;}i:11;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.650146;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1185136;}i:13;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6508429;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1197192;}i:14;a:6:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=1) AND (`status`=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6510849;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/portal/vendor/kouosl/portal-user/models/User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:1199768;}i:29;a:6:{i:0;s:62:"SELECT * FROM `address` WHERE `address` = "aaa" AND `zoom` = 3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6746571;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:13;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1380848;}i:30;a:6:{i:0;s:62:"SELECT * FROM `address` WHERE `address` = "aaa" AND `zoom` = 3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.675117;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:13;s:8:"function";s:8:"queryOne";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1382296;}i:32;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `default_address`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6753449;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1389520;}i:33;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `default_address`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6762121;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1393504;}i:35;a:6:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'default_address' AND kcu.table_name = 'default_address'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.676549;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1400888;}i:36;a:6:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'default_address' AND kcu.table_name = 'default_address'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6773651;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1402752;}i:38;a:6:{i:0;s:1979:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    CASE
+        WHEN NULL IS NULL AND `kcu`.`REFERENCED_TABLE_SCHEMA` = DATABASE() THEN NULL
+        ELSE `kcu`.`REFERENCED_TABLE_SCHEMA`
+    END AS `foreign_table_schema`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `foreign_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `foreign_column_name`,
+    `rc`.`UPDATE_RULE` AS `on_update`,
+    `rc`.`DELETE_RULE` AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `rc`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `rc`.`TABLE_NAME` = 'default_address' AND `rc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME`
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` = 'FOREIGN KEY'
+UNION
+SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    NULL AS `foreign_table_schema`,
+    NULL AS `foreign_table_name`,
+    NULL AS `foreign_column_name`,
+    NULL AS `on_update`,
+    NULL AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` IN ('PRIMARY KEY', 'UNIQUE')
+ORDER BY `position` ASC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6777329;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1412448;}i:39;a:6:{i:0;s:1979:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    CASE
+        WHEN NULL IS NULL AND `kcu`.`REFERENCED_TABLE_SCHEMA` = DATABASE() THEN NULL
+        ELSE `kcu`.`REFERENCED_TABLE_SCHEMA`
+    END AS `foreign_table_schema`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `foreign_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `foreign_column_name`,
+    `rc`.`UPDATE_RULE` AS `on_update`,
+    `rc`.`DELETE_RULE` AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `rc`.`CONSTRAINT_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `rc`.`TABLE_NAME` = 'default_address' AND `rc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME`
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` = 'FOREIGN KEY'
+UNION
+SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `tc`.`CONSTRAINT_TYPE` AS `type`,
+    NULL AS `foreign_table_schema`,
+    NULL AS `foreign_table_name`,
+    NULL AS `foreign_column_name`,
+    NULL AS `on_update`,
+    NULL AS `on_delete`,
+    `kcu`.`ORDINAL_POSITION` AS `position`
+FROM
+    `information_schema`.`KEY_COLUMN_USAGE` AS `kcu`,
+    `information_schema`.`TABLE_CONSTRAINTS` AS `tc`
+WHERE
+    `kcu`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `kcu`.`TABLE_NAME` = 'default_address'
+    AND `tc`.`TABLE_SCHEMA` = `kcu`.`TABLE_SCHEMA` AND `tc`.`TABLE_NAME` = 'default_address' AND `tc`.`CONSTRAINT_NAME` = `kcu`.`CONSTRAINT_NAME` AND `tc`.`CONSTRAINT_TYPE` IN ('PRIMARY KEY', 'UNIQUE')
+ORDER BY `position` ASC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6802831;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1415528;}i:41;a:6:{i:0;s:397:"SELECT
+    `s`.`INDEX_NAME` AS `name`,
+    `s`.`COLUMN_NAME` AS `column_name`,
+    `s`.`NON_UNIQUE` ^ 1 AS `index_is_unique`,
+    `s`.`INDEX_NAME` = 'PRIMARY' AS `index_is_primary`
+FROM `information_schema`.`STATISTICS` AS `s`
+WHERE `s`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `s`.`INDEX_SCHEMA` = `s`.`TABLE_SCHEMA` AND `s`.`TABLE_NAME` = 'default_address'
+ORDER BY `s`.`SEQ_IN_INDEX` ASC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.680696;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1419480;}i:42;a:6:{i:0;s:397:"SELECT
+    `s`.`INDEX_NAME` AS `name`,
+    `s`.`COLUMN_NAME` AS `column_name`,
+    `s`.`NON_UNIQUE` ^ 1 AS `index_is_unique`,
+    `s`.`INDEX_NAME` = 'PRIMARY' AS `index_is_primary`
+FROM `information_schema`.`STATISTICS` AS `s`
+WHERE `s`.`TABLE_SCHEMA` = COALESCE(NULL, DATABASE()) AND `s`.`INDEX_SCHEMA` = `s`.`TABLE_SCHEMA` AND `s`.`TABLE_NAME` = 'default_address'
+ORDER BY `s`.`SEQ_IN_INDEX` ASC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.6811969;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:24;s:8:"function";s:6:"upsert";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1421720;}i:44;a:6:{i:0;s:129:"INSERT INTO `default_address` (`name`, `address_id`) VALUES ('ggg', 15) ON DUPLICATE KEY UPDATE `address_id`=VALUES(`address_id`)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1546356823.6815519;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:25;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1419848;}i:45;a:6:{i:0;s:129:"INSERT INTO `default_address` (`name`, `address_id`) VALUES ('ggg', 15) ON DUPLICATE KEY UPDATE `address_id`=VALUES(`address_id`)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1546356823.682451;i:4;a:1:{i:0;a:5:{s:4:"file";s:85:"/var/www/portal/vendor/kouosl/portal-harita/controllers/backend/DefaultController.php";s:4:"line";i:25;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:1420824;}i:48;a:6:{i:0;s:36:"SELECT `name` FROM `default_address`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.739764;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:134;s:8:"function";s:3:"all";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:124;s:8:"function";s:8:"getNames";s:5:"class";s:27:"kouosl\harita\widgets\Admin";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"/var/www/portal/vendor/kouosl/portal-harita/views/backend/default/index.php";s:4:"line";i:16;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:1616792;}i:49;a:6:{i:0;s:36:"SELECT `name` FROM `default_address`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1546356823.7402101;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:134;s:8:"function";s:3:"all";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:61:"/var/www/portal/vendor/kouosl/portal-harita/widgets/Admin.php";s:4:"line";i:124;s:8:"function";s:8:"getNames";s:5:"class";s:27:"kouosl\harita\widgets\Admin";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:75:"/var/www/portal/vendor/kouosl/portal-harita/views/backend/default/index.php";s:4:"line";i:16;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:1623032;}}}";s:5:"event";s:13257:"a:73:{i:0;a:5:{s:4:"time";d:1546356823.6457851;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:1;a:5:{s:4:"time";d:1546356823.6470389;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:2;a:5:{s:4:"time";d:1546356823.6513309;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"kouosl\user\models\User";}i:3;a:5:{s:4:"time";d:1546356823.6514499;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"kouosl\user\models\User";}i:4;a:5:{s:4:"time";d:1546356823.6560531;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"kouosl\user\models\User";}i:5;a:5:{s:4:"time";d:1546356823.668324;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:6;a:5:{s:4:"time";d:1546356823.674242;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:7;a:5:{s:4:"time";d:1546356823.674283;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"kouosl\harita\Module";}i:8;a:5:{s:4:"time";d:1546356823.674448;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:51:"kouosl\harita\controllers\backend\DefaultController";}i:9;a:5:{s:4:"time";d:1546356823.6866231;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\base\components\View";}i:10;a:5:{s:4:"time";d:1546356823.6938851;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"kouosl\harita\widgets\Pjax";}i:11;a:5:{s:4:"time";d:1546356823.7033391;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\harita\widgets\Admin";}i:12;a:5:{s:4:"time";d:1546356823.7051089;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\harita\widgets\Admin";}i:13;a:5:{s:4:"time";d:1546356823.707644;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:14;a:5:{s:4:"time";d:1546356823.7146671;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:15;a:5:{s:4:"time";d:1546356823.7212119;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:16;a:5:{s:4:"time";d:1546356823.7212701;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:17;a:5:{s:4:"time";d:1546356823.738287;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:18;a:5:{s:4:"time";d:1546356823.738337;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:19;a:5:{s:4:"time";d:1546356823.7383721;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:20;a:5:{s:4:"time";d:1546356823.738436;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:21;a:5:{s:4:"time";d:1546356823.738543;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:22;a:5:{s:4:"time";d:1546356823.7385931;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:23;a:5:{s:4:"time";d:1546356823.738883;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:24;a:5:{s:4:"time";d:1546356823.7389171;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:25;a:5:{s:4:"time";d:1546356823.7389469;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:26;a:5:{s:4:"time";d:1546356823.738992;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:27;a:5:{s:4:"time";d:1546356823.7390749;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:28;a:5:{s:4:"time";d:1546356823.739146;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:29;a:5:{s:4:"time";d:1546356823.739392;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\harita\widgets\ActiveForm";}i:30;a:5:{s:4:"time";d:1546356823.7394259;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:31;a:5:{s:4:"time";d:1546356823.7394559;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:32;a:5:{s:4:"time";d:1546356823.7395;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:33;a:5:{s:4:"time";d:1546356823.740324;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:34;a:5:{s:4:"time";d:1546356823.740355;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:35;a:5:{s:4:"time";d:1546356823.740386;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:36;a:5:{s:4:"time";d:1546356823.7404139;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"kouosl\harita\widgets\Box";}i:37;a:5:{s:4:"time";d:1546356823.7404461;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\harita\widgets\Admin";}i:38;a:5:{s:4:"time";d:1546356823.7404859;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"kouosl\harita\widgets\Pjax";}i:39;a:5:{s:4:"time";d:1546356823.744447;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"kouosl\harita\widgets\Pjax";}i:40;a:5:{s:4:"time";d:1546356823.745924;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\base\components\View";}i:41;a:5:{s:4:"time";d:1546356823.7602179;s:4:"name";s:9:"beginPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\base\components\View";}i:42;a:5:{s:4:"time";d:1546356823.762882;s:4:"name";s:9:"beginBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\base\components\View";}i:43;a:5:{s:4:"time";d:1546356823.7678649;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\theme\widgets\NavBar";}i:44;a:5:{s:4:"time";d:1546356823.774051;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"kouosl\theme\widgets\Nav";}i:45;a:5:{s:4:"time";d:1546356823.774132;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"kouosl\theme\widgets\Nav";}i:46;a:5:{s:4:"time";d:1546356823.7765529;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:47;a:5:{s:4:"time";d:1546356823.776592;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:48;a:5:{s:4:"time";d:1546356823.7768221;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:49;a:5:{s:4:"time";d:1546356823.7770109;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:50;a:5:{s:4:"time";d:1546356823.7770469;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:51;a:5:{s:4:"time";d:1546356823.777283;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:52;a:5:{s:4:"time";d:1546356823.7775331;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:53;a:5:{s:4:"time";d:1546356823.7775681;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:54;a:5:{s:4:"time";d:1546356823.77771;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:55;a:5:{s:4:"time";d:1546356823.7778549;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"kouosl\theme\widgets\Nav";}i:56;a:5:{s:4:"time";d:1546356823.777894;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\theme\widgets\NavBar";}i:57;a:5:{s:4:"time";d:1546356823.7779391;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\theme\widgets\NavBar";}i:58;a:5:{s:4:"time";d:1546356823.7819159;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\theme\widgets\Breadcrumbs";}i:59;a:5:{s:4:"time";d:1546356823.781949;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\theme\widgets\Breadcrumbs";}i:60;a:5:{s:4:"time";d:1546356823.7819829;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:32:"kouosl\theme\widgets\Breadcrumbs";}i:61;a:5:{s:4:"time";d:1546356823.7846899;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"kouosl\theme\widgets\Alert";}i:62;a:5:{s:4:"time";d:1546356823.7847421;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"kouosl\theme\widgets\Alert";}i:63;a:5:{s:4:"time";d:1546356823.7847719;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"kouosl\theme\widgets\Alert";}i:64;a:5:{s:4:"time";d:1546356823.787658;s:4:"name";s:7:"endBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\base\components\View";}i:65;a:5:{s:4:"time";d:1546356823.788141;s:4:"name";s:7:"endPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"kouosl\base\components\View";}i:66;a:5:{s:4:"time";d:1546356823.7887199;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:51:"kouosl\harita\controllers\backend\DefaultController";}i:67;a:5:{s:4:"time";d:1546356823.7887671;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"kouosl\harita\Module";}i:68;a:5:{s:4:"time";d:1546356823.7887969;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:69;a:5:{s:4:"time";d:1546356823.7888329;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:70;a:5:{s:4:"time";d:1546356823.7888639;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:71;a:5:{s:4:"time";d:1546356823.7890611;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:72;a:5:{s:4:"time";d:1546356823.7895451;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:6:"assets";s:2845:"a:7:{s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:42:"/var/www/portal/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:43:"/var/www/portal/backend/web/assets/d215f891";s:7:"baseUrl";s:22:"/admin/assets/d215f891";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:42:"/var/www/portal/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:43:"/var/www/portal/backend/web/assets/d215f891";s:7:"baseUrl";s:22:"/admin/assets/d215f891";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:40:"/var/www/portal/vendor/bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:43:"/var/www/portal/backend/web/assets/594e7a50";s:7:"baseUrl";s:22:"/admin/assets/594e7a50";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:21:"yii\widgets\PjaxAsset";a:9:{s:10:"sourcePath";s:38:"/var/www/portal/vendor/bower/yii2-pjax";s:2:"js";a:1:{i:0;s:14:"jquery.pjax.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:42:"/var/www/portal/backend/web/assets/36edc22";s:7:"baseUrl";s:21:"/admin/assets/36edc22";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:32:"kouosl\theme\bundles\CustomAsset";a:9:{s:10:"sourcePath";s:61:"/var/www/portal/vendor/kouosl/portal-theme/assets/apps/custom";s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:3:"css";a:2:{i:0;s:12:"css/site.css";i:1;s:14:"css/custom.css";}s:2:"js";a:0:{}s:8:"basePath";s:43:"/var/www/portal/backend/web/assets/b8a60e2c";s:7:"baseUrl";s:22:"/admin/assets/b8a60e2c";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:43:"/var/www/portal/vendor/bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:43:"/var/www/portal/backend/web/assets/2077ff5b";s:7:"baseUrl";s:22:"/admin/assets/2077ff5b";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:43:"/var/www/portal/vendor/bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:43:"/var/www/portal/backend/web/assets/2077ff5b";s:7:"baseUrl";s:22:"/admin/assets/2077ff5b";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:90:"a:3:{s:5:"start";d:1546356823.61551;s:3:"end";d:1546356823.796773;s:6:"memory";i:1699128;}";s:4:"user";s:1273:"a:5:{s:2:"id";i:1;s:8:"identity";a:10:{s:2:"id";s:1:"1";s:8:"username";s:11:"'remziatay'";s:8:"auth_key";s:34:"'PKH18u7ALtdCRT2IHIXl48Sv-T1MPu5M'";s:13:"password_hash";s:62:"'$2y$13$8ch3BUYDn0xA6WeH2TDBHeQfriyst7zKcRQ9ewRv3aPmmJb/jKpci'";s:20:"password_reset_token";s:4:"null";s:5:"email";s:23:"'remziatay47@gmail.com'";s:12:"access_token";s:34:"'1ppOhu0QCoTbb3NEGGrGYS7cOEzAyx7e'";s:6:"status";s:2:"10";s:10:"created_at";s:10:"1539333781";s:10:"updated_at";s:10:"1539940960";}s:10:"attributes";a:10:{i:0;a:2:{s:9:"attribute";s:2:"id";s:5:"label";s:2:"Id";}i:1;a:2:{s:9:"attribute";s:8:"username";s:5:"label";s:8:"Username";}i:2;a:2:{s:9:"attribute";s:8:"auth_key";s:5:"label";s:8:"Auth Key";}i:3;a:2:{s:9:"attribute";s:13:"password_hash";s:5:"label";s:13:"Password Hash";}i:4;a:2:{s:9:"attribute";s:20:"password_reset_token";s:5:"label";s:20:"Password Reset Token";}i:5;a:2:{s:9:"attribute";s:5:"email";s:5:"label";s:5:"Email";}i:6;a:2:{s:9:"attribute";s:12:"access_token";s:5:"label";s:12:"Access Token";}i:7;a:2:{s:9:"attribute";s:6:"status";s:5:"label";s:6:"Status";}i:8;a:2:{s:9:"attribute";s:10:"created_at";s:5:"label";s:10:"Created At";}i:9;a:2:{s:9:"attribute";s:10:"updated_at";s:5:"label";s:10:"Updated At";}}s:13:"rolesProvider";N;s:19:"permissionsProvider";N;}";s:6:"router";s:1164:"a:1:{s:8:"messages";a:6:{i:18;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1546356823.6684649;i:4;a:0:{}i:5;i:1342488;}i:19;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1546356823.668503;i:4;a:0:{}i:5;i:1343064;}i:20;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1546356823.6685381;i:4;a:0:{}i:5;i:1343672;}i:21;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1546356823.668571;i:4;a:0:{}i:5;i:1344240;}i:22;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1546356823.668606;i:4;a:0:{}i:5;i:1344848;}i:23;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1546356823.668632;i:4;a:0:{}i:5;i:1345120;}}}";s:7:"summary";a:10:{s:3:"tag";s:13:"5c2b8857a0e53";s:3:"url";s:112:"http://portal.kouosl/admin/harita/default/add?attrs%5Bwidth%5D=500&attrs%5Bblock%5D=1&name=ggg&center=aaa&zoom=3";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:12:"192.168.83.1";s:4:"time";d:1546356823.609;s:10:"statusCode";i:200;s:8:"sqlCount";i:10;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}}s:10:"exceptions";a:0:{}}
